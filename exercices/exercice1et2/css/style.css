@@ -1,0 +1,85 @@
+/*all*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1 {
+  text-align: center;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+/*transition*/
+/*exercice 1*/
+.container_exo1 {
+  position: relative;
+  width: 100%;
+  max-width: 18.75em;
+}
+
+img .exo1 {
+  width: auto;
+  height: 100%;
+  display: block;
+}
+
+.overimg {
+  position: absolute;
+  bottom: 0;
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.5);
+  color: #f1f1f1;
+  width: 100%;
+  transition: 0.6s linear;
+  opacity: 0;
+  color: #fff;
+  font-size: 1em;
+  padding: 1em;
+  text-align: center;
+}
+
+.container_exo1:hover .overimg {
+  opacity: 1;
+}
+
+/*exercice 2*/
+
+.container_exo2 {
+  position: relative;
+  width: 100%;
+  max-width: 18.75em;
+}
+
+img .exo2 {
+  width: auto;
+  height: 100%;
+  display: block;
+}
+
+.overimg2 {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.5);
+  color: #f1f1f1;
+  width: 100%;
+  height: 100%;
+  transition: 0.6s linear;
+  opacity: 0;
+  color: #fff;
+  font-size: 1em;
+  padding: 6em;
+  text-align: center;
+}
+
+.container_exo2:hover .overimg2 {
+  opacity: 1;
+}
