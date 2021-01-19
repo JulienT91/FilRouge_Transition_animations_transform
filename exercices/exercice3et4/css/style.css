@@ -1,0 +1,49 @@
+/*fonts */
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap");
+
+/*all*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
+}
+header h1 {
+  text-align: center;
+}
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+footer p {
+  text-align: center;
+}
+/*animation*/
+/*exercice 3*/
+.container_exo3 {
+  background-color: #f1f1f1;
+  position: relative;
+}
+.container_exo3 img {
+  transition: 1s ease;
+  position: relative;
+}
+.container_exo3 figcaption {
+  text-align: center;
+  position: relative;
+}
+.container_exo3 img:hover {
+  transform: scale(0.5) translate(0%, 0%);
+}
+
+/*exercice 4*/
+.container_exo4 img {
+  transition: 1s ease;
+  transform: rotate(90deg);
+}
+
+.container_exo4 img:hover {
+  transform: rotate(0deg);
+}
