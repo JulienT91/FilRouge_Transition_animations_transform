@@ -24,17 +24,23 @@ footer p {
 /*exercice 3*/
 .container_exo3 {
   background-color: #f1f1f1;
-  position: relative;
 }
+
 .container_exo3 img {
   transition: 1s ease;
-  position: relative;
 }
+
 .container_exo3 figcaption {
+  color: #7e7e7e;
   text-align: center;
   position: relative;
 }
+.container_exo3 figcaption:hover {
+  display: block;
+}
+
 .container_exo3 img:hover {
+  -webkit-transform: scale(0.5) translate(0%, 0%);
   transform: scale(0.5) translate(0%, 0%);
 }
 
