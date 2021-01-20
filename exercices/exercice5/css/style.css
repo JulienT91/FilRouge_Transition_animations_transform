@@ -1,0 +1,54 @@
+/*fonts */
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap");
+
+/*all*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
+}
+header h1 {
+  text-align: center;
+}
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.container_bounce {
+  display: flex;
+  padding: 5%;
+  justify-content: center;
+}
+.box {
+  animation: 0.8s infinite;
+  transform-origin: bottom;
+  width: 20%;
+}
+.bounce-1 {
+  animation-name: bounce-1;
+  animation-timing-function: ease;
+}
+@keyframes bounce-1 {
+  0% {
+    transform: scale(1, 1) translateY(0);
+  }
+  10% {
+    transform: scale(1.1, 0.9) translateY(0);
+  }
+  30% {
+    transform: scale(0.9, 1.1) translateY(-100px);
+  }
+  50% {
+    transform: scale(1, 1) translateY(0);
+  }
+  100% {
+    transform: scale(1, 0.9) translateY(0);
+  }
+}
+
+footer p {
+  text-align: center;
+}
